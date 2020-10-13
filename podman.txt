@@ -1,0 +1,1 @@
+podman run -ti --rm --name jws --privileged --uidmap 185:0:1 --uidmap 0:1:185 -p 8080 -v ./target:/opt/eap/standalone/deployments:Z,rw registry.redhat.io/jboss-eap-7/eap73-openjdk11-openshift-rhel8
