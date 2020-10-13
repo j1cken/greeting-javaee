@@ -1,0 +1,1 @@
+oc port-forward pod/$(oc get pods|grep Runn|grep eap-cli|awk '{print $1;}') 8787

@@ -1,0 +1,1 @@
+oc set env deployment eap-cli DEBUG=true

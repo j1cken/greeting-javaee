@@ -1,0 +1,1 @@
+oc label deployment eap-cli app.openshift.io/runtime=eap --overwrite

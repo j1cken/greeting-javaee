@@ -1,0 +1,1 @@
+oc new-app --name eap-cli openshift/eap73-openjdk11-openshift-rhel8:latest~https://github.com/j1cken/greeting-javaee
