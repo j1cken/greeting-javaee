@@ -1,0 +1,1 @@
+oc create configmap jboss-cli --from-file=postconfigure.sh=jboss-cli/postconfigure.sh --from-file=extensions.cli=jboss-cli/extensions.cli

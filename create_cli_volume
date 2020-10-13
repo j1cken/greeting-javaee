@@ -1,0 +1,1 @@
+oc set volume deployment eap-cli --add --name=jboss-cli -m /opt/eap/extensions -t configmap --configmap-name=jboss-cli --default-mode=0755 --overwrite
